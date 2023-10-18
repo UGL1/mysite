@@ -80,7 +80,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="En-tête">
-    <a href="index.html" title="Template MkDocs" class="md-header__button md-logo" aria-label="Template MkDocs" data-md-component="logo">
+    <a href="." title="Template MkDocs" class="md-header__button md-logo" aria-label="Template MkDocs" data-md-component="logo">
       
   <img src="img/logo.svg" alt="logo">
 
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Accueil
+              Home
             
           </span>
         </div>
@@ -166,13 +166,23 @@
         
   
   
-    
+
+
+  <li class="md-tabs__item">
+    <a href="nsi1.html" class="md-tabs__link">
+      NSI1
+    </a>
+  </li>
+
+      
+        
+  
   
 
 
   <li class="md-tabs__item">
-    <a href="index.html" class="md-tabs__link md-tabs__link--active">
-      Accueil
+    <a href="nsi2.md" class="md-tabs__link">
+      NSI2
     </a>
   </li>
 
@@ -200,7 +210,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Template MkDocs" class="md-nav__button md-logo" aria-label="Template MkDocs" data-md-component="logo">
+    <a href="." title="Template MkDocs" class="md-nav__button md-logo" aria-label="Template MkDocs" data-md-component="logo">
       
   <img src="img/logo.svg" alt="logo">
 
@@ -216,19 +226,26 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
-        Accueil
+    <li class="md-nav__item">
+      <a href="nsi1.html" class="md-nav__link">
+        NSI1
       </a>
+    </li>
+  
+
+    
       
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nsi2.md" class="md-nav__link">
+        NSI2
+      </a>
     </li>
   
 
@@ -249,55 +266,7 @@
 
 
 
-<p>Template MkDocs minimaliste.</p>
-<p>Amusez-vous bien !</p>
-<p>Une console</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="gp">&gt;&gt;&gt; </span><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">a</span>
-<span class="go">2</span>
-</code></pre></div></td></tr></table></div>
-<div class="admonition ugli-exo">
-<p class="admonition-title">Script interne dans admonition</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hé, salut !&quot;</span><span class="p">)</span>
-</code></pre></div></td></tr></table></div>
-</div>
-<div class="admonition ugli-exo">
-<p class="admonition-title">Script externe dans admonition</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Salut !&quot;</span><span class="p">)</span> <span class="c1"># script externe</span>
-</code></pre></div></td></tr></table></div>
-</div>
-<details class="ugli-exo">
-<summary>Script externe dans <em>collapsible admonition</em></summary>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Salut !&quot;</span><span class="p">)</span> <span class="c1"># script externe</span>
-</code></pre></div></td></tr></table></div>
-</details>
-<div class="admonition ugli-exo">
-<p class="admonition-title">Scripts externes dans admonition avec onglets</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">C++</label><label for="__tabbed_1_2">Python</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span>
-<span class="normal">3</span>
-<span class="normal">4</span>
-<span class="normal">5</span>
-<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
-
-<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hello World!&quot;</span><span class="p">;</span><span class="w"> </span><span class="c1">// external file</span>
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Salut !&quot;</span><span class="p">)</span> <span class="c1"># script externe</span>
-</code></pre></div></td></tr></table></div>
-</div>
-</div>
-</div>
-</div>
+<p>Bienvenue !</p>
 
 
 
